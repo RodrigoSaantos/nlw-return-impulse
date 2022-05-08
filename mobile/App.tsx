@@ -1,9 +1,9 @@
-import 'react-native-gesture-handler';
-import React, { useCallback, useEffect, useState } from 'react';
+import { Inter_400Regular, Inter_500Medium, useFonts } from '@expo-google-fonts/inter';
+import AppLoading from 'expo-app-loading';
 import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { View } from 'react-native';
-import AppLoading from 'expo-app-loading'
-import { useFonts, Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
+import 'react-native-gesture-handler';
 import Widget from './src/componentes/Widget';
 import { theme } from './src/theme';
 
